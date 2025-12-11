@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+instagram-content-venv/
+venv/
+env/
+ENV/
+
+# Generated Visuals (exclude from repo)
+AI_Fake_News_Detector_LSTM_Project/*.png
+AI_Fake_News_Detector_LSTM_Project/*.jpg
+AI_Fake_News_Detector_LSTM_Project/*.jpeg
+AI_Fake_News_Detector_LSTM_Project/*.html
+
+# Model files (large)
+AI_Fake_News_Detector_LSTM_Project/best_model.keras
+AI_Fake_News_Detector_LSTM_Project/*.h5
+AI_Fake_News_Detector_LSTM_Project/*.pkl
+
+# Data
+AI_Fake_News_Detector_LSTM_Project/data/
+*.csv
+
+# Test scripts (keep only core)
+AI_Fake_News_Detector_LSTM_Project/test_*.py
+
+# Documentation (keep main docs)
+!AI_Fake_News_Detector_LSTM_Project/README.md
+AI_Fake_News_Detector_LSTM_Project/*.md
+!AI_Fake_News_Detector_LSTM_Project/voiceover_script.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
